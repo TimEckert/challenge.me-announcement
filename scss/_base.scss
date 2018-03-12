@@ -1,0 +1,35 @@
+// COLORS
+$color-1: #58ffc0;
+
+$color-grey-light: #5a5652;
+$color-grey: #343435;
+$color-grey-dark: #24231f;
+
+$color-white: #fff;
+$color-black: #000;
+
+// FONT
+$default-font-size: 1.6rem;
+
+$font-headline: 'Alegreya', serif;
+$font-text: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $font-text;
+    color: $color-grey-dark;
+    font-weight: 300;
+    line-height: 1.6;
+}
