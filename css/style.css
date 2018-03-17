@@ -43,15 +43,23 @@ body {
   grid-column: 1 / -1; }
 
 .header {
-  background-color: red;
+  background-image: url(../images/schiefer.jpg);
+  background-size: cover;
   grid-column: 1 / 2; }
+  .header__headlines {
+    margin: 10rem 4rem;
+    color: rgba(255, 255, 255, 0.8); }
+    .header__headlines--teaser {
+      font-size: 4rem; }
+    .header__headlines--catch {
+      font-size: 6rem; }
 
 .quotes  {
   grid-column: 2 / 3; }
 
 .howto {
   background-color: #58ffc0;
-  padding: 2rem;
+  padding: 2rem 16rem;
   grid-column: 1 / -1; }
   .howto__items {
     display: grid;
@@ -59,7 +67,11 @@ body {
     grid-gap: 3rem; }
   .howto__item {
     background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 5px; }
+    border-radius: 5px;
+    padding: 1rem 4rem;
+    transition: all .2s; }
+    .howto__item:hover {
+      transform: translateY(-1.5rem) scale(1.03); }
   .howto__step {
     padding: 2rem 0;
     font-size: 2rem; }

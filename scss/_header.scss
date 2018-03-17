@@ -1,14 +1,18 @@
 .header {
-    background-color: red;
+    background-image: url(../images/schiefer.jpg);
+    background-size: cover;
     grid-column: 1 / 2;
+
     &__headlines {
+        margin: 10rem 4rem;
+        color: rgba($color-white, .8);
 
         &--teaser {
-
+            font-size: 4rem;
         }
 
         &--catch {
-
+            font-size: 6rem;
         }
     }
 }
