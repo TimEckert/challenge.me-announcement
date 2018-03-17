@@ -1,0 +1,28 @@
+.howto {
+    background-color: $color-1;
+    padding: 2rem;
+
+    grid-column: 1 / -1;
+
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 3rem;
+    }
+
+    &__item {
+        background-color: rgba($color-white, .8);
+        border-radius: $border-rad;
+    }
+
+    &__step {
+        padding: 2rem 0;
+        font-size: 2rem;
+    }
+
+    &__text {
+        padding-bottom: 4rem;
+        font-size: 1.6rem;
+
+    }
+}

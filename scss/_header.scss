@@ -1,0 +1,14 @@
+.header {
+    background-color: red;
+    grid-column: 1 / 2;
+    &__headlines {
+
+        &--teaser {
+
+        }
+
+        &--catch {
+
+        }
+    }
+}

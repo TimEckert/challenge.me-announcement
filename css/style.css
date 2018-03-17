@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -14,3 +15,57 @@ body {
   color: #24231f;
   font-weight: 300;
   line-height: 1.6; }
+
+.container {
+  display: grid;
+  grid-template-rows: min-content 75vh repeat(2, min-content);
+  grid-template-columns: 70vw 30vw; }
+
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem   !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem   !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.2rem !important; }
+
+.u-margin-top-big {
+  margin-top: 8rem  !important; }
+
+.u-margin-top-huge {
+  margin-top: 10rem !important; }
+
+.logo {
+  grid-column: 1 / -1; }
+
+.header {
+  background-color: red;
+  grid-column: 1 / 2; }
+
+.quotes  {
+  grid-column: 2 / 3; }
+
+.howto {
+  background-color: #58ffc0;
+  padding: 2rem;
+  grid-column: 1 / -1; }
+  .howto__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3rem; }
+  .howto__item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px; }
+  .howto__step {
+    padding: 2rem 0;
+    font-size: 2rem; }
+  .howto__text {
+    padding-bottom: 4rem;
+    font-size: 1.6rem; }
+
+.section__headline {
+  font-size: 2rem; }
