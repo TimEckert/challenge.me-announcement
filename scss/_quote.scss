@@ -1,3 +1,33 @@
-.quotes {
+.quotes {
     grid-column: 2 / 3;
+    background-color: $color-1;
+    padding: 4rem;
+    box-shadow: 0rem 4rem 8rem rgba($color-black, .5);
+
+    &__item {
+        background-color: rgba($color-white, .8);
+        margin-top: 2rem;
+        padding: 1.5rem 2rem;
+        font-size: 1.6rem;
+
+        box-shadow: 0rem .5rem 5rem rgba($color-black, .5);
+        border-radius: $border-rad-big 0 $border-rad-big $border-rad-big;
+    }
+
+    &__text {
+
+    }
+
+    &__img {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%; 
+        display: inline-block;
+        margin-top: 2rem;
+    }
+
+    &__name {
+        display: inline-block;
+
+    }
 }

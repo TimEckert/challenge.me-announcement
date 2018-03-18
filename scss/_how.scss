@@ -1,6 +1,7 @@
 .howto {
-    background-color: $color-1;
-    padding: 2rem 16rem;
+    background-color: $color-white;
+    padding: 4rem 16rem;
+    position: relative;
 
     grid-column: 1 / -1;
 
@@ -11,7 +12,7 @@
     }
 
     &__item {
-        background-color: rgba($color-white, .8);
+        background-color: rgba($color-1, .8);
         border-radius: $border-rad;
 
         padding: 1rem 4rem;
@@ -31,6 +32,5 @@
     &__text {
         padding-bottom: 4rem;
         font-size: 1.6rem;
-
     }
 }
